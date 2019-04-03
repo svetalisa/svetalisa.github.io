@@ -1,3 +1,4 @@
+
 .header{
     color: gray;
     font-family: Arial, sans-serif;
@@ -6,7 +7,8 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    width: 900px;
+    width: 90%;
+    height: auto;
 }
 span {
     color: black;
@@ -21,7 +23,7 @@ h1 {
 .main{
     border: solid 1px #a1a1a1;
     margin: 0 auto;
-    width: 900px;
+    width: 90%;
 }
 .title {
     color: #3383b0;
@@ -33,12 +35,37 @@ h1 {
     margin:0 5% 3% 5%;
     padding-bottom: 5px;
 }
-.info{
+.title:hover{
+    text-shadow: 3px 3px #ffefc5;
+}
+#circle{
+    background-color: red;
+    opacity: 0.7;
+    border-radius: 50%;
+    padding: 0 1%;
+    position: absolute;
+    left:70px;
+    top: 150px;
+    z-index: 5;
+}
+#circle p{
+    color:white;
+    font-size: 35px;
+    text-align: center;
+}
+.foto{
+    position: relative;
+}
+.information{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     margin: 5% 15% 5% 10%;
-    position: relative;
+}
+.slider-img{
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-between;
 }
 .characteristics{
     padding-left: 5%;
@@ -46,13 +73,6 @@ h1 {
 h3 {
     border-bottom: solid 1px grey;
     font-weight: bold;
-}
-.slider-img{
-    width: 306px;
-    margin:0 0 0 10%;
-    display: flex;
-    justify-content: space-between;
-
 }
 .description h4{
     text-align: left;
@@ -68,23 +88,29 @@ h3 {
     margin: 3% 10%;
     font-size: 14px;
 }
-#circle{
-    background-color: red;
-    opacity: 0.7;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    top: -10px;
-    left: -50px;
-}
-#circle p{
-    color:white;
-    font-size: 35px;
-    text-align: center;
-
+.description:hover{
+    background-color: #23fff0;
 }
 .footer {
     margin: 0 auto;
-    width: 900px;
+    width: 90%;
+}
+@media screen and (max-width : 320px){
+    .header{
+        font-size: 80%;
+    }
+    .title {
+     flex-wrap: wrap;
+     font-size: 80%;
+ }
+ .information{flex-direction: column}
+ #circle{
+     width: 30%;
+     height: auto;
+     left: 10%;
+     top:auto;
+     }
+#circle p{
+    font-size: 20px;
+}
 }
