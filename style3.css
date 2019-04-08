@@ -1,0 +1,152 @@
+.header{
+    color: gray;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    height: auto;
+}
+span {
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.main{
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid grey;
+}
+.title {
+    color: #3383b0;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: #a1a1a1 solid 1px;
+    margin:0 10px 5px 15px;
+    padding-bottom: 5px;
+}
+.title:hover{
+    text-shadow: 5px 5px #ffe646;
+}
+.circle{
+    height:140px;
+    width: 140px;
+    background-color: red;
+    opacity: 0.7;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 5;
+    left: -30px;
+    top: -30px;
+}
+.circle p{
+    color:white;
+    font-size: 35px;
+    text-align: center;
+}
+.foto{
+    position: relative;
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 30px;
+}
+.slider-img{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.characteristics{
+    padding-left: 10px;
+}
+h3 {
+    border-bottom: solid 1px grey;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 15px;
+}
+.description{
+    margin: 10px 20px;
+}
+.description h3 {
+    text-align: left;
+    border-bottom: #a1a1a1 solid 1px;
+}
+.description p{
+    text-align: justify;
+}
+.description h6{
+    font-size: 14px;
+}
+.description:hover{
+    background-color: #3383b0;
+}
+.footer {
+    margin: 0 auto;
+    width: 700px;
+}
+@media screen and (max-width: 700px) {
+    .header, .main, .footer {
+        width: 96%;}
+}
+
+@media screen and (max-width: 600px) {
+    .header, .main, .footer {
+        width: 92%;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .information {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .slider{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .bigPhoto {
+        width: 65%;
+        margin: 10px 15px;
+    }
+    .slider-img{
+        margin: auto 15px;
+        width: 65%;
+    }
+    .circle{
+        width: 130px;
+        height:130px;
+        left: 0;
+    }
+    .description h3{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 420px){
+    .header{
+        font-size:13px;
+    }
+    .main{
+        border: none;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .circle{
+        width: 110px;
+        height: 110px;
+    }
+    .circle p{
+        font-size: 25px;
+    }
+
+}
+
