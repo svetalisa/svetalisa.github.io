@@ -1,0 +1,45 @@
+html{padding-top: 5px;}
+body{
+    width: 95%;
+    padding: 20px;
+    background-color: #ffedc4;
+}
+div{
+    background-color: #f3ffc2;
+}
+.header,.main,.footer{border: 3px solid red;
+                       padding: 3px;}
+.logo img{
+    border: 2px solid #cd7c2b;
+    height: 110px;
+    width: 110px;
+    padding: 5px;
+text-align: center;
+}
+.main{
+    margin-top: 10px;
+}
+.footer{
+    margin-top: 10px;
+text-align: center
+}
+
+h1{
+    text-align: center;
+    color: crimson;
+}
+p{
+    margin: 20px;
+}
+li{display: inline;
+    padding: 0 30px;
+font-weight: bold;}
+.logo{display: inline-block;}
+.menu{display: inline-block;
+    float: right;
+    margin: 3px;
+    border: 2px solid red;
+    font-size: 24px;
+    height: 115px;
+    width: 700px;}
+
