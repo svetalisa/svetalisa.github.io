@@ -349,8 +349,12 @@
   margin: 55px auto;
   padding-bottom: 80px; }
 
+.menuNav {
+  text-align: center; }
+
 .menuNav__item {
-  margin: 5px; }
+  margin: 5px;
+  text-decoration: none; }
 
 .testimonial__image {
   border: 2px solid #00e0d000;
@@ -530,7 +534,7 @@
   .slider {
     margin-top: 100px; }
   .textBlock {
-    margin-left: 50px; }
+    text-align: center; }
   .contactContent {
     flex-wrap: wrap; }
   .contactSection {
@@ -608,9 +612,10 @@
     padding: 0;
     justify-content: flex-end; }
   .mainNav__items {
-    margin: 15px 40px; }
+    margin: 15px auto; }
   .textInfo-right {
-    padding-right: 45px; } }
+    padding-right: 25px;
+    margin-top: 60px; } }
 
 @media screen and (max-width: 450px) {
   .slider {
@@ -630,7 +635,7 @@
   .Logo {
     margin: 0 50px 20px; }
   .textBlock {
-    text-align: left; }
+    text-align: center; }
   .button a {
     font-size: 12px;
     padding: 12px; }
@@ -659,13 +664,15 @@
     margin-left: 10px; }
   .footerLogo, .footerStudio, .footerTouch {
     margin: 0 auto;
-    width: 80%; } }
+    width: 100%; } }
 
 @media screen and (max-width: 350px) {
   .burgerMenu {
     font-size: 26px; }
   .slider-header {
     padding: 0 5px; }
+  .slider__text {
+    margin-bottom: 25px; }
   .box {
     padding-top: 100px; }
   .siteSection-video {
@@ -679,14 +686,26 @@
     height: 35px; }
   .iconBox__title {
     margin: 20px 0 15px; }
+  .fotoBox {
+    margin-bottom: 10px; }
   .textBlock__works {
     flex-wrap: wrap;
-    margin-right: 10px; }
+    margin-right: 10px;
+    justify-content: center; }
+  .textBlock__text {
+    margin-bottom: 10px; }
   .testimonialsText__title {
     font-size: 50px; }
   .testimonialsText__text {
     font-size: 12px; }
   .menuLink {
-    width: 300px; }
+    width: 290px;
+    margin: 10px auto; }
   .testimonial__image {
-    width: 13%; } }
+    width: 13%; }
+  .form {
+    margin-bottom: 20px; }
+  .footerContent {
+    margin: 0 auto; }
+  .subscribe__title {
+    margin-right: 5px; } }
